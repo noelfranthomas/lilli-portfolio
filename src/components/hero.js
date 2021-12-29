@@ -65,7 +65,7 @@ const Hero = () => {
   const OnHoverStore = () => {
     setTextColor("var(--n-purple)");
     cursorBig();
-    setHeroText("Store");
+    setHeroText("Portfolio");
     setHeroTextOpacity(1);
     setHeroFontSize("6vw");
   }
@@ -73,7 +73,7 @@ const Hero = () => {
   const OnHoverMission = () => {
     setTextColor("var(--n-light-brown)"); 
     cursorBig();
-    setHeroText("Mission");
+    setHeroText("About");
     setHeroTextOpacity(1);
     setHeroFontSize("6vw");
   }
@@ -129,7 +129,7 @@ const Hero = () => {
         >Portfolio
         </Link>
       </div> 
-      <div role="none" className="menuItem" style={{color: `${textColor}`}} onMouseOver={OnHoverStore} onFocus={OnHoverStore} onMouseLeave={OffHover}>
+      <div role="none" className="menuItem" style={{color: `${textColor}`}} onMouseOver={OnHoverMission} onFocus={OnHoverStore} onMouseLeave={OffHover}>
         <Link
         to="/about"
         aria-label={`About`}
