@@ -1,0 +1,181 @@
+:root{
+    --start-pos-col1: 0px;
+    --start-pos-col2: 0px;
+    --start-pos-col2: 0px;
+    --start-pos-col2: 0px;
+    --par-card-space: 16px;
+}
+
+.outFrame{
+    max-width: 100vw;
+    overflow: hidden;
+    padding-top: 300px;
+}
+
+.parFrame{
+    display: flex;
+
+    flex-flow: row nowrap;
+
+    justify-content: space-around;
+
+    
+}
+
+.par-col1{
+    position: relative;
+
+    top: var(--start-pos-col1);
+
+    width: 250px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+
+    margin: 0 5px;
+}
+
+.par-col2{
+    position: relative;
+
+    top: var(--start-pos-col2);
+
+    width: 250px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+
+    margin: 0 5px;
+}
+
+.par-col3{
+    position: relative;
+
+    top: var(--start-pos-col3);
+
+    width: 250px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+
+    margin: 0 5px;
+}
+
+.par-col4{
+    position: relative;
+
+    top: var(--start-pos-col4);
+
+    width: 250px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+
+    margin: 0 5px;
+}
+
+.parCard{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: var(--par-card-space) 0;
+    background-color: rgb(55, 70, 83);
+
+    transition: all 0.2s;
+}
+
+.parCard:hover{
+    width: 260px;
+    height: 260px;
+}
+
+
+
+/* Column 1 */
+.par-zero{
+    background-color: white;
+}
+
+
+.par-one{
+    background-color: white;
+}
+
+.par-two{
+    background-color: white;
+}
+
+.par-three{
+    background-color: white;
+}
+
+.par-four{
+    background-color: white;
+}
+
+/* Column 2 */
+
+.par-five{
+    background-color: white;
+}
+
+.par-six{
+    background-color: white;
+}
+
+.par-seven{
+    background-color: white;
+}
+
+.par-eight{
+    background-color: white;
+}
+
+/* Column 3 */
+
+.par-nine{
+    background-color: white;
+}
+
+.par-ten{
+    background-color: white;
+}
+
+.par-eleven{
+    background-color: white;
+}
+
+.par-twelve{
+    background-color: white;
+}
+
+.par-thirteen{
+    background-color: white;
+}
+
+/* Column 4 */
+
+.par-fourteen{
+    background-color: white;
+}
+
+.par-fifteen{
+    background-color: white;
+}
+
+.par-sixteen{
+    background-color: white;
+}
+
+.par-seventeen{
+    background-color: white;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+/* *{
+    cursor: none;
+} */
+
+.menu{
+    position: absolute;
+    right: 0;
+    top: 95vh;
+    width: 100vw;
+    height: 5vh;
+    z-index: 2;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    transition: all 2s;
+}
+
+@media (min-width: 360px) {
+    .menu{
+        top: 105vh;
+    }
+}
+
+
+.menuTrigger{
+    height: 1vh;
+    z-index: 0;
+}
+
+.menuItem{
+    font-size: 20px;
+    transition: all 0.2s;
+    animation-timing-function: ease;
+    z-index: 11;
+}
+
+@media (min-width: 360px) {
+    .menuItem{
+        padding-right: 10px;
+    }
+}
+
+.menuItem:hover{
+    padding: 0 30px;
+    font-size: 30px;
+    font-weight: 700;
+    transform: translateY(-3px);
+}
+
+.dot {
+    position: fixed;
+    background-color: var(--n-off-white);
+    border-radius: 50%;
+    display: inline-block;
+    background-blend-mode: saturation;
+    z-index: 0;
+    transition: height 0.2s, width 0.2s;
+}
+
+.hero{
+    position: absolute;
+    top: 0;
+
+    height: 100vh;
+    width: 95vw;
+
+    z-index: 1;
+
+    transition: all 0.2s;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+}
+
+.textCol{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroText{
+    font-family: 'Sacramento', cursive;
+    font-weight: 100;
+    font-size: max(10vw, 10px);
+}
+
+.heroTextSecond{
+    font-family: 'Sacramento', cursive;
+    font-weight: 100;
+    font-size: max(10vw, 10px);
+}
+
+@media (max-width: 600px) {
+    .heroTextSecond{
+        display: none;
+    }
+}
+
+
+.filler{
+    /* This fills out the trigger */
+    height: 105vh; 
+}
+
+.heroBackgroundColor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: var(--light-purple); */
+    transition: all 0.2s;
+  }
+  

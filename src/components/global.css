@@ -1,0 +1,27 @@
+::selection {
+  background: var(--light-purple); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--light-purple); /* Gecko Browsers */
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-color);
+}
+
+.gatsby-image-wrapper {
+  margin: auto;
+}
+
+.gatsby-image-wrapper [data-main-image] {
+  border-radius: var(--radius-sm);
+}
+
+.crosshair{
+  cursor: crosshair;
+}
+
+.noCursor {
+  cursor: none;
+}

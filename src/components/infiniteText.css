@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+.robotoMono{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin-top: 12px;
+}
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+.monteCarlo{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 45px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+
+.windSong{
+    font-family: 'WindSong', cursive;
+    font-size: 35px;
+    margin-top: 12px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebasNeue{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.dancingScript{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.indieFlower{
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    margin-top: 12px;
+}
+
+.infiniteWrapper{
+    position:relative;
+    left: -300px;
+
+    padding-bottom: 128px;
+}
+.infiniteElement{
+    width: 300px;
+    position:absolute;
+    text-align:center;
+}

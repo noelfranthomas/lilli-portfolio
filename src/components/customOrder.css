@@ -1,0 +1,34 @@
+
+.module-border-wrap {
+    background: linear-gradient(217deg, #646eca, #dddfff);
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    color: #aa6929;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.module {
+    background: white;
+    color: #989dce;
+    width: 155px;
+    height: 35px;
+    border-radius: 18px;
+    font-weight: 700;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s;
+  }
+
+  .module:hover {
+    color: #646eca;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
