@@ -44,13 +44,13 @@ export const BlogPostTemplate = ({
           <br />
 
           <Link
-          to="/home/"
-          aria-label={`Go to the store`}
+          to="/contact"
+          aria-label={`Contact`}
           >
             <div style={{backgroundColor: "#646eca", borderRadius: "10px", display: "flex", justifyContent: "center", padding: "10px 0"}}>
               <div style={{color: "white"}}>
                 <b>
-                Contact Us
+                Contact
                 </b>
               </div>
               <br />
