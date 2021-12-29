@@ -48,6 +48,13 @@
 
     padding-bottom: 128px;
 }
+
+@media (max-width: 1000px) {
+    .infiniteWrapper{
+        display: none;
+    }
+}
+
 .infiniteElement{
     width: 300px;
     position:absolute;
