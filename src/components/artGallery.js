@@ -33,7 +33,7 @@ export default function ArtGallery({ products = [] }){
         <div className="par-col1" style={{transform: `translateY(${offsetY * speedOne}px)`}}>
 
           <div className="parCard par-zero">
-            <ArtGalleryCard image="https://ucarecdn.com/2fcdd8ad-d6cb-47a6-8b9a-53aed1d19d10/61437780432__E8A1D934308E485FA831F85C102674BD.jpeg" eager={false} />
+            <ArtGalleryCard image="https://ucarecdn.com/2fcdd8ad-d6cb-47a6-8b9a-53aed1d19d10/61437780432__E8A1D934308E485FA831F85C102674BD.jpeg" eager={true} />
           </div>
           
            <div className="parCard par-one">
@@ -55,7 +55,7 @@ export default function ArtGallery({ products = [] }){
 
    <div className="par-col2" style={{transform: `translateY(${offsetY * speedTwo}px)`}}>
           <div className="parCard par-five">
-          <ArtGalleryCard image="https://ucarecdn.com/0cf47a9f-4581-40e7-8c68-17db759591da/IMG_4712.jpeg" eager={false} />
+          <ArtGalleryCard image="https://ucarecdn.com/0cf47a9f-4581-40e7-8c68-17db759591da/IMG_4712.jpeg" eager={true} />
           </div>
 
           <div className="parCard par-six">
@@ -74,7 +74,7 @@ export default function ArtGallery({ products = [] }){
    
         <div className="par-col3" style={{transform: `translateY(${offsetY * speedThree}px)`}}>
           <div className="parCard par-nine">
-          <ArtGalleryCard image="https://ucarecdn.com/c8096a88-4f5c-44d5-9a22-65d6189d4ee4/IMG_7591.jpeg" eager={false} />
+          <ArtGalleryCard image="https://ucarecdn.com/c8096a88-4f5c-44d5-9a22-65d6189d4ee4/IMG_7591.jpeg" eager={true} />
           </div>
 
           <div className="parCard par-ten">
@@ -96,7 +96,7 @@ export default function ArtGallery({ products = [] }){
 
         <div className="par-col4" style={{transform: `translateY(${offsetY * speedFour}px)`}}>
           <div className="parCard par-fourteen">
-          <ArtGalleryCard image="https://ucarecdn.com/a282516f-0127-4b37-9986-04212bd2ea3f/IMG_7589.jpeg" eager={false} />
+          <ArtGalleryCard image="https://ucarecdn.com/a282516f-0127-4b37-9986-04212bd2ea3f/IMG_7589.jpeg" eager={true} />
           </div>
 
           <div className="parCard par-fifteen">

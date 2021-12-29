@@ -30,7 +30,7 @@ export function ArtGalleryCard({image, eager }) {
 
   return (
     <Link
-      to="/products/"
+      to="/portfolio/"
       aria-label={`View`}
     >
       <div className="crosshair">
