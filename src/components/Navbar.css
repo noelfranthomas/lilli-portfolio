@@ -17,6 +17,24 @@
     text-decoration: none;
 }
 
+/* For Favicon */
+.Favicon{
+    font-family: "Sacramento", cursive;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: var(--space-lg);
+
+    background-color: #dddfff;
+    border-radius: 6px;
+
+    width: 20px;
+    height: 20px;
+
+    text-decoration: none;
+}
+
 .Sacramento:hover{
     color: black;
 }
