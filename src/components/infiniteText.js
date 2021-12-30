@@ -1,6 +1,6 @@
 import * as React from "react";
 import { gsap } from "gsap";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import "./infiniteText.css"
 
@@ -27,7 +27,6 @@ const InfiniteText = () => {
       repeat: -1
     });
 
-    // return () => window.removeEventListener("resize", updateWindowDimensions) 
   }, []);
 
   return(

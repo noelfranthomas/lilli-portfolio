@@ -1,7 +1,6 @@
 import React from "react";
 
 import ArtGallery from "../components/artGallery";
-import { CustomOrder } from "../components/customOrder";
 import Footer from "../components/Footer";
 import Hero from "../components/hero";
 // eslint-disable-next-line

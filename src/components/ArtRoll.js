@@ -1,10 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 import "./ArtRoll.css";
-import { StaticImage } from "gatsby-plugin-image";
-import { GatsbyImage } from 'gatsby-plugin-image';
 
 class ArtRollTemplate extends React.Component {
   render() {
@@ -26,7 +23,7 @@ class ArtRollTemplate extends React.Component {
                     <img
                       className='image'
                       src={post.frontmatter.featuredimage}
-                      alt={`featured image thumbnail for post ${post.frontmatter.title}`}
+                      alt={`${post.frontmatter.title}`}
                     />
                   ) : <div>Image Unavailable</div> }
                 </header>
