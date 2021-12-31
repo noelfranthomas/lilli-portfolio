@@ -44,9 +44,6 @@ const Navbar = class extends React.Component {
               <h2 className="Sacramento">
                 Lilli's
               </h2>
-              {/* <h2 className="Favicon">
-                L
-              </h2> */}
             </Link>
             {/* Hamburger menu */}
             <div

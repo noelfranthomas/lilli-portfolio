@@ -26,7 +26,7 @@ const Footer = class extends React.Component {
             Lilli's
           </Link>
           
-          <em style={{color: "grey"}}>"Bringing your vision to life"</em>
+          <em>"Mission Statement"</em>
 
           <br />
         </div>
