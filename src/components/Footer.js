@@ -25,10 +25,6 @@ const Footer = class extends React.Component {
           <Link to="/" className={title}>
             Lilli's
           </Link>
-          
-          <em>"Mission Statement"</em>
-
-          <br />
         </div>
         <CustomOrder />
           <br />
