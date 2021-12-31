@@ -1,18 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "Lilli's Art",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Portfolio website for artist Lilli Miller",
+    siteUrl: 'https://www.lillis.ca',
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'React go',
-        short_name: 'Reactgo',
+        name: 'Lillis',
+        short_name: 'Lillis',
         start_url: '/',
-        background_color: '#f7f0eb',
-        theme_color: '#a2466c',
+        background_color: '#fff',
+        theme_color: '#dddfff',
         display: 'standalone',
         icon: 'static/favicon.ico',
       },
