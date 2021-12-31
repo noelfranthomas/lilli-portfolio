@@ -6,6 +6,18 @@ module.exports = {
     siteUrl: 'https://www.lillis.ca',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Lilli',
+        short_name: 'Lil',
+        start_url: '/',
+        background_color: '#000',
+        theme_color: '#dddfff',
+        display: 'standalone',
+        icon: 'static/favicon.ico',
+      },
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",
