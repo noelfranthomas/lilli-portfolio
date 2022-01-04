@@ -25,7 +25,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           </div>
         </div>
       </section>
-      <InfiniteText />
+      {/* <InfiniteText /> */}
     </div>
   );
 };
