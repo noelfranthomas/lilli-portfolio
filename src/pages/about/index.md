@@ -13,14 +13,6 @@ Hello! My name is Lilli Bea. I have always loved painting and creating art. Pain
 
 ### 
 
-### Helping Our Community 
-
-<!--StartFragment-->
-
-I believe it is important to give back to my community, so I pledge to donate 20% of all sales to the Calgary Women's Emergency Shelter.
-
-<!--EndFragment-->
-
 ### Environmental Efforts 
 
 <!--StartFragment-->
